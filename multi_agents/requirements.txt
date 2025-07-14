@@ -5,3 +5,6 @@ python-dotenv
 weasyprint
 json5
 loguru
+langchain>=0.1.12 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.4 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
